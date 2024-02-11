@@ -2843,17 +2843,17 @@ input[type="submit"].btn.btn-mini {
     color: #909090;
 }
 .nav-tabs>li>a:hover {
-    border: 1px solid #FD6440;
-    background-color: #FD6440;
+    border: 1px solid #ff6900;
+    background-color: #ff6900;
     color: #FFFFFF;
 }
 .nav-tabs>.active>a,
 .nav-tabs>.active>a:hover {
     color: #FFFFFF;
     cursor: default;
-    background-color: #FD6440;
+    background-color: #ff6900;
     border: 1px solid rgba(255,255,255,0);
-    border-bottom-color: #FD6440;
+    border-bottom-color: #ff6900;
 }
 .nav-pills>li>a {
     padding-top: 8px;
@@ -3730,7 +3730,7 @@ input[type="submit"].btn.btn-mini {
     bottom: 0;
     left: 50%;
     margin-left: -5px;
-    border-top: 5px solid #fd6440;
+    border-top: 5px solid #ff6900;
     border-right: 5px solid transparent;
     border-left: 5px solid transparent
 }
@@ -3739,7 +3739,7 @@ input[type="submit"].btn.btn-mini {
     left: 0;
     margin-top: -5px;
     border-top: 5px solid transparent;
-    border-right: 5px solid #fd6440;
+    border-right: 5px solid #ff6900;
     border-bottom: 5px solid transparent
 }
 .popover.bottom .arrow {
@@ -3747,7 +3747,7 @@ input[type="submit"].btn.btn-mini {
     left: 50%;
     margin-left: -5px;
     border-right: 5px solid transparent;
-    border-bottom: 5px solid #fd6440;
+    border-bottom: 5px solid #ff6900;
     border-left: 5px solid transparent
 }
 .popover.left .arrow {
@@ -3756,7 +3756,7 @@ input[type="submit"].btn.btn-mini {
     margin-top: -5px;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
-    border-left: 5px solid #fd6440
+    border-left: 5px solid #ff6900
 }
 .popover .arrow {
     position: absolute;
@@ -3768,7 +3768,7 @@ input[type="submit"].btn.btn-mini {
     padding: 3px;
     overflow: hidden;
     background: #FFF;
-    background: #fd6440;
+    background: #ff6900;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
@@ -3857,7 +3857,7 @@ a.thumbnail:hover {
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
     white-space: nowrap;
     vertical-align: baseline;
-    background-color: #FD6440
+    background-color: #ff6900
 }
 .label {
     padding: 2px 4px 2px;

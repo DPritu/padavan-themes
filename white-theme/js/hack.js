@@ -297,9 +297,9 @@ fixShareDirIcons();
 localizeItoggle();
 insertCommonLibs();
 // red
-addPaletteSelectOption(localize('Main Color'), 'mainColor', 'fd6440|FF5722|f89406|b94a48', '#fd6440', getCurrentTheme().name);
+addPaletteSelectOption(localize('Main Color'), 'mainColor', 'ff6900|FF5722|f89406|b94a48', '#ff6900', getCurrentTheme().name);
 // logo icon: red
-addPaletteSelectOption(localize('Logo Color'), 'logoColor1', 'fd6440|f57921', '#fd6440', 'common-theme', 'switchLogo', editableLogoList);
+addPaletteSelectOption(localize('Logo Color'), 'logoColor1', 'ff6900|f57921', '#ff6900', 'common-theme', 'switchLogo', editableLogoList);
 // logo text: grey
 addPaletteSelectOption(localize('Logo Color'), 'logoColor2', '909090|f3f3f3', '#909090', 'common-theme', 'switchLogo', editableLogoList, 'logoColor1');
 // text complementary colors: grey
