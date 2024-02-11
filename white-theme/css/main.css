@@ -489,6 +489,7 @@ textarea[readonly] {
 
 .aidisk_table {
     background: rgba(0, 0, 0, 0.6);
+    color: #FFFFFF;
     margin: 0 5px 0 5px;
     width: 370px;
 }
@@ -616,4 +617,3 @@ textarea[readonly] {
 .input-append input {
     border-radius: 7px;
 }
-
