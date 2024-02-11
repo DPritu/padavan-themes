@@ -1515,7 +1515,7 @@ table .span24 {
     height: 14px;
     *margin-right: .3em;
     line-height: 14px;
-    vertical-align: text-top;
+    vertical-align: sub !important;
     background-image: url("../img/glyphicons-halflings-white.png");
     background-position: 14px 14px;
     background-repeat: no-repeat
@@ -1578,8 +1578,8 @@ table .span24 {
     background-position: -360px 0
 }
 .icon-off {
-    background-image: url('data:image/svg+xml,%3Csvg%20version%3D%221.1%22%20id%3D%22%D0%A1%D0%BB%D0%BE%D0%B9_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20viewBox%3D%22-97%20220.9%20400%20400%22%20style%3D%22enable-background%3Anew%20-97%20220.9%20400%20400%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cstyle%20type%3D%22text%2Fcss%22%3E%0D%0A%09.st0%7Bfill%3Anone%3Bstroke%3A%23909090%3Bstroke-width%3A20%3Bstroke-linecap%3Around%3Bstroke-linejoin%3Around%3Bstroke-miterlimit%3A10%3B%7D%0D%0A%3C%2Fstyle%3E%0D%0A%3Cg%3E%0D%0A%09%3Cpath%20class%3D%22st0%22%20d%3D%22M161.9%2C297c57.8%2C19.8%2C81.7%2C66.2%2C81.1%2C134.1c-0.7%2C81.1-64.6%2C146.4-142.8%2C145.8c-78.2-0.6-141-67-140.4-148.1%0D%0A%09%09c0.6-67.9%2C29.2-106%2C81.5-131.9%22%2F%3E%0D%0A%09%3Cline%20class%3D%22st0%22%20x1%3D%22103.1%22%20y1%3D%22264.9%22%20x2%3D%22101.7%22%20y2%3D%22436%22%2F%3E%0D%0A%3C%2Fg%3E%0D%0A%3C%2Fsvg%3E');
-	background-position: 0px;
+    background-image: url("../img/glyphicons-halflings-white.png") !important;
+    background-position: -384px 0 !important;
 }
 .icon-signal {
     background-position: -408px 0
@@ -1633,7 +1633,7 @@ table .span24 {
 }
 .icon-lock {
     background-image: url('data:image/svg+xml,%3Csvg%20version%3D%221.1%22%20id%3D%22%D0%A1%D0%BB%D0%BE%D0%B9_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20viewBox%3D%220%200%20400%20400%22%20enable-background%3D%22new%200%200%20400%20400%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Ccircle%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%2230%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-miterlimit%3D%2210%22%20cx%3D%22223.7%22%20cy%3D%22261.7%22%20r%3D%2291.3%22%2F%3E%0D%0A%3Cpath%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%2230%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-miterlimit%3D%2210%22%20d%3D%22%0D%0A%09M148.6%2C210.4c-0.3-24.5-1.3-70.2%2C0-104.4c1.3-33.6%2C43.8-59.1%2C69.8-59.1c46.7%2C0%2C71.4%2C21.2%2C74.8%2C64.4c0.3%2C3.4%2C0.4%2C87.8%2C0.4%2C91.5%22%2F%3E%0D%0A%3Cline%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%2230%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-miterlimit%3D%2210%22%20x1%3D%22223%22%20y1%3D%22236%22%20x2%3D%22223%22%20y2%3D%22295%22%2F%3E%0D%0A%3Cg%3E%0D%0A%3C%2Fg%3E%0D%0A%3Cg%3E%0D%0A%3C%2Fg%3E%0D%0A%3Cg%3E%0D%0A%3C%2Fg%3E%0D%0A%3Cg%3E%0D%0A%3C%2Fg%3E%0D%0A%3Cg%3E%0D%0A%3C%2Fg%3E%0D%0A%3Cg%3E%0D%0A%3C%2Fg%3E%0D%0A%3Cg%3E%0D%0A%3C%2Fg%3E%0D%0A%3Cg%3E%0D%0A%3C%2Fg%3E%0D%0A%3Cg%3E%0D%0A%3C%2Fg%3E%0D%0A%3Cg%3E%0D%0A%3C%2Fg%3E%0D%0A%3Cg%3E%0D%0A%3C%2Fg%3E%0D%0A%3Cg%3E%0D%0A%3C%2Fg%3E%0D%0A%3Cg%3E%0D%0A%3C%2Fg%3E%0D%0A%3Cg%3E%0D%0A%3C%2Fg%3E%0D%0A%3Cg%3E%0D%0A%3C%2Fg%3E%0D%0A%3C%2Fsvg%3E');
-	background-position: -1px;
+	background-position: 0px !important;
 }
 .icon-flag {
     background-position: -312px -24px
@@ -2520,6 +2520,9 @@ button.btn.btn-mini,
 input[type="submit"].btn.btn-mini {
     *padding-top: 1px;
     *padding-bottom: 1px
+}
+button.btn-mini {
+    background-color: #C44FD8B3;
 }
 .btn-group {
     position: relative;
