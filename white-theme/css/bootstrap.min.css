@@ -1033,6 +1033,9 @@ select:focus:required:invalid:focus {
     vertical-align: middle;
     *zoom: 1
 }
+input[type]+button, button[name="ManualDHCPList2"] {
+    background-color: #FF6900B3 !important;
+}
 .input-prepend,
 .input-append {
     margin-bottom: 5px
@@ -1515,7 +1518,7 @@ table .span24 {
     height: 14px;
     *margin-right: .3em;
     line-height: 14px;
-    vertical-align: sub !important;
+    vertical-align: text-top !important;
     background-image: url("../img/glyphicons-halflings-white.png");
     background-position: 14px 14px;
     background-repeat: no-repeat
@@ -1859,12 +1862,13 @@ table .span24 {
     background-position: -384px -96px
 }
 .icon-plus {
-    background-image: url('data:image/svg+xml,%3Csvg%20version%3D%221.1%22%20id%3D%22%D0%A1%D0%BB%D0%BE%D0%B9_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20viewBox%3D%22-97%20220.9%20400%20400%22%20style%3D%22enable-background%3Anew%20-97%20220.9%20400%20400%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cstyle%20type%3D%22text%2Fcss%22%3E%0D%0A%09.st0%7Bfill%3Anone%3Bstroke%3A%23909090%3Bstroke-width%3A20%3Bstroke-linecap%3Around%3Bstroke-linejoin%3Around%3Bstroke-miterlimit%3A10%3B%7D%0D%0A%3C%2Fstyle%3E%0D%0A%3Cg%3E%0D%0A%09%3Cline%20class%3D%22st0%22%20x1%3D%22264.8%22%20y1%3D%22412.4%22%20x2%3D%22-54%22%20y2%3D%22412.4%22%2F%3E%0D%0A%09%3Cline%20class%3D%22st0%22%20x1%3D%22105.4%22%20y1%3D%22252.9%22%20x2%3D%22105.4%22%20y2%3D%22571.8%22%2F%3E%0D%0A%3C%2Fg%3E%0D%0A%3C%2Fsvg%3E%0D%0A');
-	background-position: 0px 2px;
+    background-image: url("/white-theme/css/../img/glyphicons-halflings-white.png") !important;
+    background-position: -407px -95px !important;
+    height: 17px !important;
 }
 .icon-minus {
-    background-image: url('data:image/svg+xml,%3Csvg%20version%3D%221.1%22%20id%3D%22%D0%A1%D0%BB%D0%BE%D0%B9_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20viewBox%3D%22-97%20220.9%20400%20400%22%20style%3D%22enable-background%3Anew%20-97%20220.9%20400%20400%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cstyle%20type%3D%22text%2Fcss%22%3E%0D%0A%09.st0%7Bfill%3Anone%3Bstroke%3A%23FFFFFF%3Bstroke-width%3A20%3Bstroke-linecap%3Around%3Bstroke-linejoin%3Around%3Bstroke-miterlimit%3A10%3B%7D%0D%0A%3C%2Fstyle%3E%0D%0A%3Cg%3E%0D%0A%09%3Cline%20class%3D%22st0%22%20x1%3D%22264.8%22%20y1%3D%22412.4%22%20x2%3D%22-54%22%20y2%3D%22412.4%22%2F%3E%0D%0A%3C%2Fg%3E%0D%0A%3C%2Fsvg%3E');
-	background-position: 0px;
+    background-image: url("/white-theme/css/../img/glyphicons-halflings-white.png") !important;
+    background-position: -433px -95px !important;
 }
 .icon-asterisk {
     background-position: -456px -96px
@@ -1887,8 +1891,10 @@ table .span24 {
 	background-position: 0px 2px;
 }
 .icon-eye-close {
-    background-image: url('data:image/svg+xml,%3Csvg%20version%3D%221.1%22%20id%3D%22%D0%A1%D0%BB%D0%BE%D0%B9_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20viewBox%3D%22-97%20220.9%20400%20400%22%20style%3D%22enable-background%3Anew%20-97%20220.9%20400%20400%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cstyle%20type%3D%22text%2Fcss%22%3E%0D%0A%09.st0%7Bfill%3Anone%3Bstroke%3A%23909090%3Bstroke-width%3A20%3Bstroke-linecap%3Around%3Bstroke-linejoin%3Around%3Bstroke-miterlimit%3A10%3B%7D%0D%0A%3C%2Fstyle%3E%0D%0A%3Cg%3E%0D%0A%09%3Cg%3E%0D%0A%09%09%3Cpath%20class%3D%22st0%22%20d%3D%22M82%2C463.5c0%2C34.8-28.2%2C63.1-63.1%2C63.1s-63.1-28.2-63.1-63.1c0-34.8%2C28.2-63.1%2C63.1-63.1S82%2C428.6%2C82%2C463.5z%22%0D%0A%09%09%09%2F%3E%0D%0A%09%09%3Cpath%20class%3D%22st0%22%20d%3D%22M250.2%2C463.5c0%2C34.8-28.2%2C63.1-63.1%2C63.1S124%2C498.3%2C124%2C463.5c0-34.8%2C28.2-63.1%2C63.1-63.1%0D%0A%09%09%09S250.2%2C428.6%2C250.2%2C463.5z%22%2F%3E%0D%0A%09%09%3Cline%20class%3D%22st0%22%20x1%3D%22250.2%22%20y1%3D%22463.5%22%20x2%3D%22264.2%22%20y2%3D%22463.5%22%2F%3E%0D%0A%09%09%3Cpolyline%20class%3D%22st0%22%20points%3D%22-44.1%2C463.5%20-58.2%2C463.5%20-30.1%2C288.3%20-2.1%2C295.1%20%09%09%22%2F%3E%0D%0A%09%09%3Cpolyline%20class%3D%22st0%22%20points%3D%22264.2%2C463.5%20236.1%2C288.3%20208.1%2C295.1%20%09%09%22%2F%3E%0D%0A%09%3C%2Fg%3E%0D%0A%09%3Cpath%20class%3D%22st0%22%20d%3D%22M82%2C449.5c0-11.6%2C9.4-21%2C21-21c11.6%2C0%2C21%2C9.4%2C21%2C21%22%2F%3E%0D%0A%3C%2Fg%3E%0D%0A%3C%2Fsvg%3E');
-	background-position: 0px 2px;
+    background-image: url("/white-theme/css/../img/glyphicons-halflings-white.png") !important;
+    background-position: -95px -118px !important;
+    width: 16px !important;
+    height: 16px !important;
 }
 .icon-warning-sign {
     background-position: -144px -120px
@@ -1914,14 +1920,14 @@ table .span24 {
     background-position: -264px -120px
 }
 .icon-chevron-up {
-    background-image: url('data:image/svg+xml,%3Csvg%20version%3D%221.1%22%20id%3D%22%D0%A1%D0%BB%D0%BE%D0%B9_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20viewBox%3D%22-97%20220.9%20400%20400%22%20style%3D%22enable-background%3Anew%20-97%20220.9%20400%20400%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cstyle%20type%3D%22text%2Fcss%22%3E%0D%0A%09.st0%7Bfill%3Anone%3Bstroke%3A%23909090%3Bstroke-width%3A20%3Bstroke-linecap%3Around%3Bstroke-linejoin%3Around%3Bstroke-miterlimit%3A10%3B%7D%0D%0A%3C%2Fstyle%3E%0D%0A%3Cpolyline%20class%3D%22st0%22%20points%3D%22-54%2C501.5%20107.2%2C340.3%20268.3%2C501.5%20%22%2F%3E%0D%0A%3C%2Fsvg%3E');
-	background-position: 0px 2px;
+    background-image: url("/white-theme/css/../img/glyphicons-halflings-white.png") !important;
+    background-position: -288px -119px !important;
 	width: 14px;
     height: 18px;
 }
 .icon-chevron-down {
-    background-image: url('data:image/svg+xml,%3Csvg%20version%3D%221.1%22%20id%3D%22%D0%A1%D0%BB%D0%BE%D0%B9_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20viewBox%3D%22-97%20220.9%20400%20400%22%20style%3D%22enable-background%3Anew%20-97%20220.9%20400%20400%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cstyle%20type%3D%22text%2Fcss%22%3E%0D%0A%09.st0%7Bfill%3Anone%3Bstroke%3A%23909090%3Bstroke-width%3A20%3Bstroke-linecap%3Around%3Bstroke-linejoin%3Around%3Bstroke-miterlimit%3A10%3B%7D%0D%0A%3C%2Fstyle%3E%0D%0A%3Cpolyline%20class%3D%22st0%22%20points%3D%22264.2%2C340.3%20103%2C501.5%20-58.2%2C340.3%20%22%2F%3E%0D%0A%3C%2Fsvg%3E');
-	background-position: 0px 2px;
+    background-image: url("/white-theme/css/../img/glyphicons-halflings-white.png") !important;
+    background-position: -313px -118px !important;
 	width: 14px;
     height: 18px;
 }
@@ -2310,9 +2316,8 @@ button.close {
     *background-color: #FF5722;
 }
 .btn:focus {
-    outline: thin dotted #333;
-    outline: 5px auto -webkit-focus-ring-color;
-    outline-offset: -2px
+    outline: 2px solid #fff !important;
+    outline-offset: -4px !important;
 }
 .btn.active,
 .btn:active {
@@ -2429,9 +2434,9 @@ button.close {
     background-color: #c67605 \9
 }
 .btn-danger {
-    background-color: rgb(247, 247, 247);
+    background-color: #8BC34AB3 !important;
     border-color: #8BC34A;
-    color: #909090
+    color: #909090;
 }
 .btn-danger:hover,
 .btn-danger:active,
@@ -2522,7 +2527,7 @@ input[type="submit"].btn.btn-mini {
     *padding-bottom: 1px
 }
 button.btn-mini {
-    background-color: #C44FD8B3;
+    background-color: #C44FD8B3 !important;
 }
 .btn-group {
     position: relative;
@@ -3906,11 +3911,11 @@ a.badge:hover {
 }
 .label-info,
 .badge-info {
-    background-color: #3a87ad
+    background-color: #C44FD8B3 !important;
 }
 .label-info[href],
 .badge-info[href] {
-    background-color: #2d6987
+    background-color: #C44FD8 !important;
 }
 .label-inverse,
 .badge-inverse {
