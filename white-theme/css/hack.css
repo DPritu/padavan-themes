@@ -135,10 +135,23 @@ div.machineName {
     display: none;
 }
 
+/* Fix for aligning buttons next to inputs in tables in one line */
+/* Advanced_MACFilter_Content.asp, time selection in one line */
+.table-list td:has(input):has(button),
+td:has([name*=macfilter_time]) {
+    width: 28% !important;
+}
 
-/* LAN page > MAC address field on one row */
-table tr#row_static_header td:first-child {
-    width: 30% !important;
+/* Advanced_MACFilter_Content.asp, day selection indentation fixed for Saturday */
+label:has([name="macfilter_date_x_Sat"]) {
+    margin-left: 0px !important;
+    margin-right: 2px !important;
+}
+
+/* LAN page > MAC address field in one line */
+.table tr#row_static_header td:has(input):has(button),
+.table tr#row_static_body tr[id*=row] td:nth-child(1) {
+    width: 28% !important;
 }
 
 /* VPN server page, ip addr field in one row */
