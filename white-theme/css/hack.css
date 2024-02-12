@@ -33,6 +33,23 @@ td#wan_status>span.label.label-success {
     background-color: #468847
 }
 
+/* Set background and text color for buttons */
+input[type]+button,
+button.btn:has(i) {
+    background-color: #FF6900B3;
+    color: #FFFFFF;
+}
+
+/* Set background color for mini buttons */
+td button.btn-mini {
+    background-color: #C44FD8B3;
+}
+
+/* Set background color for danger buttons */
+td button.btn-danger {
+    background-color: #8BC34AB3;
+}
+
 /* LIGHT STYLES */
 
 /* highlight sidebar active menu */
