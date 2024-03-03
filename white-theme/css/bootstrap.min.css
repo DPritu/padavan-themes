@@ -2473,7 +2473,7 @@ button.close {
 .btn-info {
     background-color: rgb(247, 247, 247);
     background-repeat: repeat-x;
-    border-color: #ff6900 #ff6900 #ff6900;
+    border-color: #ff6900 #ff6900 #ff6900 !important;
     color: #909090
 }
 .btn-info:hover,
@@ -2481,7 +2481,7 @@ button.close {
 .btn-info.active,
 .btn-info.disabled,
 .btn-info[disabled] {
-    background-color: #ff6900;
+    background-color: #ff6900 !important;
 }
 .btn-info:active,
 .btn-info.active {
