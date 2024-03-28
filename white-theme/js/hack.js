@@ -298,6 +298,7 @@ localizeItoggle();
 insertCommonLibs();
 // red
 addPaletteSelectOption(localize('Main Color'), 'mainColor', 'ff6900|FF5722|f89406|b94a48', '#ff6900', getCurrentTheme().name);
+addPaletteSelectOption(localize('Secondary Color'), 'secondaryColor', 'C44FD8|C44FD8B3', '#C44FD8', getCurrentTheme().name, '', '', 'mainColor');
 // logo icon: red
 addPaletteSelectOption(localize('Logo Color'), 'logoColor1', 'ff6900|f57921', '#ff6900', 'common-theme', 'switchLogo', editableLogoList);
 // logo text: grey
