@@ -406,7 +406,7 @@ div.xiaomi-big {
     width: 215px !important;
     height: 82px !important;
     background-repeat: no-repeat;
-    background-position: 50%;
+    background-position: center;
 }
 div.xiaomi-face {
     background-image: url("../img/logo/xiaomi_face.png") !important;
