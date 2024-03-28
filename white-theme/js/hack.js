@@ -301,9 +301,9 @@ addPaletteSelectOption(localize('Main Color'), 'mainColor', 'ff6900|FF5722|f8940
 // logo icon: red
 addPaletteSelectOption(localize('Logo Color'), 'logoColor1', 'ff6900|f57921', '#ff6900', 'common-theme', 'switchLogo', editableLogoList);
 // logo text: grey
-addPaletteSelectOption(localize('Logo Color'), 'logoColor2', '909090|f3f3f3', '#909090', 'common-theme', 'switchLogo', editableLogoList, 'logoColor1');
+addPaletteSelectOption(localize('Logo Color'), 'logoColor2', '909090|f3f3f3', '#f3f3f3', 'common-theme', 'switchLogo', editableLogoList, 'logoColor1');
 // text complementary colors: grey
-addPaletteSelectOption(localize('Text Color'), 'textColor', ['#909090', '#AAAFB2', 'rgba\\(238, 238, 238, 0\\)', '%23909090', '#ccc'], '#909090', getCurrentTheme().name);
+addPaletteSelectOption(localize('Text Color'), 'textColor', ['#909090', '#AAAFB2', 'rgba\\(238, 238, 238, 0\\)', '%23909090', '#ccc'], '#323232', getCurrentTheme().name);
 restorePalette();
 fixAdvancedSettingsTable();
 setTimeout(fixActiveMenuItem, 0);
