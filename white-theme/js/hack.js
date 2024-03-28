@@ -290,7 +290,7 @@ function fixActiveMenuItem() {
 }
 
 var editableLogoList = ['xiaomi-white', 'custom', 'xiaomi-big', findRouterId(), 'default'];
-restoreLogo('xiaomi-white');
+restoreLogo('default');
 restoreBackground('carbon');
 fixDeviceListIcons();
 fixShareDirIcons();
