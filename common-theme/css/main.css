@@ -393,6 +393,10 @@ div.xiaomi-bench {
 .row-fluid:has(#logo) {
     width: 920px !important;
 }
+.row-fluid:has(#logo) .container-fluid {
+    padding: 0 !important;
+    margin: 0 !important;
+}
 div.MI-3,
 div.MI-3C,
 div.MI-3_SPI,
