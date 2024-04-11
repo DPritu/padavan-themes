@@ -509,7 +509,7 @@ textarea[readonly] {
     padding: 20px;
     width: 960px;
     background: #FDFDFD;
-    font-family: Georgia;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
     opacity: 0;
     z-index: 90;
 
@@ -521,7 +521,7 @@ textarea[readonly] {
 
 .syslog_panel div.log_text {
     text-align: center;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
 #syslog_panel_button {

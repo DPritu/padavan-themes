@@ -135,7 +135,7 @@ textarea {
 }
 body {
     margin: 0;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
     font-size: 13px;
     line-height: 18px;
     color: #909090;
@@ -345,7 +345,7 @@ a:hover {
 }
 p {
     margin: 0 0 9px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
     font-size: 13px;
     line-height: 18px
 }
@@ -632,7 +632,7 @@ input,
 button,
 select,
 textarea {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 label {
     display: block;
@@ -3166,7 +3166,7 @@ input[type="submit"].btn.btn-mini {
 }
 .navbar-search .search-query {
     padding: 4px 9px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
     font-size: 13px;
     font-weight: normal;
     line-height: 1;
