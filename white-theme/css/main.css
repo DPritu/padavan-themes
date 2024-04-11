@@ -575,12 +575,11 @@ textarea[readonly] {
     background-image: -moz-linear-gradient(top, #e6e6e6, #ffffff);
 }
 
-#log_area {
-    font-family: 'Courier New', Courier, mono; font-size:13px;
-}
-
+textarea[style*="mono"],
+#log_area,
+#system_time,
 #system_time_log_area {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace !important;
 }
 
 .btn-chevron {
