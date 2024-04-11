@@ -390,9 +390,6 @@ div.xiaomi-bench {
     width: 220px !important;
     height: 100px !important;
 }
-.row-fluid:has(#logo) {
-    width: 920px !important;
-}
 div.MI-3,
 div.MI-3C,
 div.MI-3_SPI,
